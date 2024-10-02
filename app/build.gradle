@@ -27,6 +27,9 @@ dependencies {
 
 //Yahoo Finance API
 dependencies {
+    // SLF4J simple logger
+    implementation 'org.slf4j:slf4j-simple:2.0.9'
+    
     implementation group: 'com.yahoofinance-api', name: 'YahooFinanceAPI', version: '3.17.0'
 }
 
